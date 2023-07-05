@@ -1,9 +1,4 @@
-# PBL-NT-GP-14343-1682679985
-SIVABALA.R(TEAM LEADER),
 
-SURYA.KS(TEAM MEM 01),
-THIRUVENKADAM.B(TEAM MEM 02),
-RITHISHREE(TEAM MEM 03)
 
 # Intelligent Garbage Classifcation using Deep learning
 According to the next 25 years, the less developed countries’ waste accumulation will increase drastically. With the increase in the number of industries in the urban area,the disposal of the solid waste is really becoming a big problem, and the solid waste includes paper, wood, plastic, metal, glass etc. The common way of managing waste is burning waste and this method can cause air pollution and some hazardous materials from the waste spread into the air which can cause cancer. Hence it is necessary to recycle the waste to protect the environment and human beings’ health, and we need to separate the waste into different components which can be recycled using different ways.
