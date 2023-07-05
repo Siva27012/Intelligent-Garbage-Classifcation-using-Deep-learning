@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+   
+}
+
+header{
+    height: 10vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);   
+}
+.title1{
+    font-family: "Amazon Ember",sans-serif;
+    float: left;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 60px;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    font-family: Century Gothic ; 
+}
+ul li{
+    display: inline-block;
+    
+}
+.img1{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.488),rgba(0, 0, 0, 0.756)),url(images/garbagebg.jpeg);
+    height:660px ;
+    
+  
+    
+}
+
+
+.img1 .name h3{
+    font-size: 2rem;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    padding-left: 5px;
+    font-family: "Amazon Ember",sans-serif;
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 0.6rem;
+    color: #ffffff;
+    padding: 5px 25px;
+    border: 1px solid transparent; 
+    transition: 1s ease;
+    font-family: "Amazon Ember",sans-serif;
+  
+}
+.btn:hover{
+   
+    border-radius: 0.6rem;
+    background-color:rgb(255, 111, 0);;
+    color: #000000;
+    
+}
+.btn:focus {
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgba(78, 78, 78, 0.5) 0 2px 5px 0;
+    outline: 0;
+  }
+  .img1 .name .btn{
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(230, 39, 10);
+    color: #ffff;
+    top: 55%;
+    left:7%;
+    font-family: "Amazon Ember",sans-serif;
+
+  }
+  .img1 .name .btn:hover{
+    background-color:rgb(255, 111, 0);
+    color: #000000;
+    transition-duration: 1s ;
+  }
+  
+  .img1 .name span{
+   
+    color:rgb(255, 111, 0);;
+  }
+.about{
+    padding: 3rem 8%;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.about1 {
+    text-align:left;
+    margin-bottom: 2rem;
+    position: relative;
+    font-family: "Amazon Ember",sans-serif; 
+  }
+  .about1::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 0.1rem;
+    width: 10%;
+    left: 4.5%;
+    background: rgb(255, 111, 0);
+    z-index: 2;
+  }
+  .about2{
+color: rgb(45, 40, 90);
+font-family: "Amazon Ember",sans-serif;
+margin-top: 1%;
+  }
+  
+.container{
+ 
+  margin-top: 2%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 2rem;
+
+}
+
+.about3 p{
+  font-size: 1rem;
+}
+
+ .about4 p{
+  font-size: 1rem;
+}
+.btn1{
+  position: absolute;
+  margin-top: 5%;
+  text-decoration: none;
+    border-radius: 0.6rem;
+    color: #fcfcfc;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 25px;
+    border: 1px solid transparent; 
+    transition: 1s ease;
+    font-family: "Amazon Ember",sans-serif;
+  
+}
+ .btn1:hover{
+  border-radius: 0.6rem;
+    background-color:rgb(255, 111, 0);;
+    color: #000000;
+ }
+ .contact{
+  justify-content: center;
+  padding: 3rem 8%;
+  background-color:aliceblue;
+ }
+.contact1{
+  text-align:left;
+    margin-bottom: 2rem;
+    position: relative;
+    font-family: "Amazon Ember",sans-serif; 
+}
+.contact1::before{
+  content: '';
+    position: absolute;
+    top: 50%;
+    height: 0.1rem;
+    width: 10%;
+    left: 5.5%;
+    background: rgb(255, 111, 0);
+    z-index: 2;
+}
+.contact2{
+  color: rgb(45, 40, 90);
+font-family: "Amazon Ember",sans-serif;
+margin-top: 1%;
+}
+.services{
+  width:80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1{
+  font-size: 38px;
+  font: weight 6px;
+}
+p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+} 
+.row{
+  margin-top: 1%;
+  display: flex ;
+  justify-content: space-between;
+}
+
+
+.meaw{
+  flex-basis: 31%;
+  background: rgba(0, 213, 255, 0.159);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20ps 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.meaw:hover{
+   box-shadow: 0 0 20px 0px rgba(244, 8, 8, 0.5);
+}
+
+
+.footer .box-container1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+  background-color: #000000;
+}
+
+.footer .box-container1 .box h3 {
+  font-size: 2rem;
+  color:#f00;
+  padding: 1rem 0;
+}
+
+.footer .box-container1 .box .links {
+  font-size: 1.5rem;
+  display: block;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+.footer .box-container1 .box .links:hover {
+  color: #f00;
+}
+
+.footer .box-container1 .box p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+.footer .box-container1 .box p i {
+  padding-right: .5rem;
+  color: #f00;
+}
+
+.footer .box-container1 .box .share {
+  padding: 1rem 0;
+}
+
+.footer .box-container1 .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: #111;
+  border-radius: 50%;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.footer .box-container1 .box .share a:hover {
+  background: #f00;
+}
+
+.footer .box-container1.box form .email {
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #111;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+}
